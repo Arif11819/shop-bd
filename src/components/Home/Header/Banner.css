@@ -1,0 +1,23 @@
+.first-circle {
+    color: rgba(0, 36, 130, 1);
+}
+
+.first-circle:hover {
+    color: blue;
+}
+
+.second-circle:hover {
+    color: blue;
+}
+
+.third-circle:hover {
+    color: blue;
+}
+
+.fourth-circle:hover {
+    color: blue;
+}
+
+.fifth-circle:hover {
+    color: blue;
+}
