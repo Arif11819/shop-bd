@@ -1,3 +1,35 @@
+.banner-second-img {
+    background-image: url(https://i.ibb.co/Bz9T3Xb/Rectangle-373.png);
+}
+
+.banner-second-img img {
+    margin-top: 140px;
+    margin-left: 140px;
+    color:
+        rgba(39, 39, 39, 1);
+    width: 470px;
+    height: 70px;
+}
+
+.banner-text {
+    color: #565656;
+    margin-top: 33px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.banner-offer-text {
+    color: #565656;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+}
+
 .first-circle {
     color: rgba(0, 36, 130, 1);
 }

@@ -13,8 +13,11 @@ const Banner = () => {
                 <div>
                     <img className='w-[1028px] h-[596px]' src="https://i.ibb.co/DDRk9JC/Rectangle-374-1.png" alt="" />
                 </div>
-                <div>
-                    <img className='w-[882px] h-[596px]' src="https://i.ibb.co/Bz9T3Xb/Rectangle-373.png" alt="" />
+                <div className='w-[882px] h-[596px] banner-second-img'>
+                    <img src="https://i.ibb.co/vQmpNT0/Vector-9.png" alt="" />
+                    <h2 className='banner-text'>Big Fashion Festival</h2>
+                    <h2 className='banner-offer-text'>50% - 80% off</h2>
+                    <button className='pl-6 pr-6 mt-5 border rounded-md border-black'>Explore</button>
                 </div>
             </div>
             <div className='flex justify-center items-center mt-3 gap-2 circle'>
