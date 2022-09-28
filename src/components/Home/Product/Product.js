@@ -6,7 +6,7 @@ const Product = () => {
     return (
         <div className='mb-20'>
             <section>
-                <h2 className='text-2xl font-bold text-start pl-10 pb-3'>Trending Now</h2>
+                <h2 className='text-3xl font-bold text-start pl-10 pb-3'>Trending Now</h2>
                 <div className='flex px-10 gap-6'>
                     <div>
                         <img src="https://i.ibb.co/9gSNH9j/Rectangle-375-1.png" alt="" />
@@ -70,8 +70,8 @@ const Product = () => {
                     </div>
                 </div>
             </section>
-            <section className='mt-16'>
-                <h2 className='text-2xl font-bold text-start pl-10 pb-3'>Deals of the Day</h2>
+            <section className='mt-24'>
+                <h2 className='text-3xl font-bold text-start pl-10 pb-3'>Deals of the Day</h2>
                 <div className='flex px-10 gap-6'>
                     <div>
                         <img src="https://i.ibb.co/9gSNH9j/Rectangle-375-1.png" alt="" />
@@ -99,7 +99,115 @@ const Product = () => {
                     </div>
                 </div>
             </section>
-            <section></section>
+            <section>
+                <h2 className='text-3xl font-bold text-start pl-10 pb-6 mt-24'>Trending Offers</h2>
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div className='flex'>
+                            <div className='h-[241px] w-[250px] pt-16 pr-8'>
+                                <img src="https://i.ibb.co/sVr6YVh/Rectangle-13-1.png" alt="" />
+                            </div>
+                            <div className='w-[412px] h-[430px] first-slide-div flex flex-col justify-center items-center gap-6'>
+                                <img className='w-[275px] h-[72px]' src="https://i.ibb.co/sQ1KCKG/Vector-4.png" alt="" />
+                                <h3 className='text-3xl font-semibold'>Min 60% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+
+                            </div>
+                            <div className='w-[442px] h-[487px]'>
+                                <img src="https://i.ibb.co/bNcgKrX/Rectangle-13.png" alt="" />
+                            </div>
+                            <div className='flex flex-col justify-center items-center gap-6 ml-12 mt-12 first-slide-div w-[368px] h-[341px]'>
+                                <h3 className='text-3xl font-semibold'>FOREVER 21</h3>
+                                <h3 className='text-3xl font-semibold'>Min 50% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+                            </div>
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div className='flex'>
+                            <div className='h-[241px] w-[250px] pt-16 pr-8'>
+                                <img src="https://i.ibb.co/sVr6YVh/Rectangle-13-1.png" alt="" />
+                            </div>
+                            <div className='w-[412px] h-[430px] first-slide-div flex flex-col justify-center items-center gap-6'>
+                                <img className='w-[275px] h-[72px]' src="https://i.ibb.co/sQ1KCKG/Vector-4.png" alt="" />
+                                <h3 className='text-3xl font-semibold'>Min 60% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+
+                            </div>
+                            <div className='w-[442px] h-[487px]'>
+                                <img src="https://i.ibb.co/bNcgKrX/Rectangle-13.png" alt="" />
+                            </div>
+                            <div className='flex flex-col justify-center items-center gap-6 ml-12 mt-12 first-slide-div w-[368px] h-[341px]'>
+                                <h3 className='text-3xl font-semibold'>FOREVER 21</h3>
+                                <h3 className='text-3xl font-semibold'>Min 50% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+                            </div>
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div className='flex'>
+                            <div className='h-[241px] w-[250px] pt-16 pr-8'>
+                                <img src="https://i.ibb.co/sVr6YVh/Rectangle-13-1.png" alt="" />
+                            </div>
+                            <div className='w-[412px] h-[430px] first-slide-div flex flex-col justify-center items-center gap-6'>
+                                <img className='w-[275px] h-[72px]' src="https://i.ibb.co/sQ1KCKG/Vector-4.png" alt="" />
+                                <h3 className='text-3xl font-semibold'>Min 60% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+
+                            </div>
+                            <div className='w-[442px] h-[487px]'>
+                                <img src="https://i.ibb.co/bNcgKrX/Rectangle-13.png" alt="" />
+                            </div>
+                            <div className='flex flex-col justify-center items-center gap-6 ml-12 mt-12 first-slide-div w-[368px] h-[341px]'>
+                                <h3 className='text-3xl font-semibold'>FOREVER 21</h3>
+                                <h3 className='text-3xl font-semibold'>Min 50% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+                            </div>
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div className='flex'>
+                            <div className='h-[241px] w-[250px] pt-16 pr-8'>
+                                <img src="https://i.ibb.co/sVr6YVh/Rectangle-13-1.png" alt="" />
+                            </div>
+                            <div className='w-[412px] h-[430px] first-slide-div flex flex-col justify-center items-center gap-6'>
+                                <img className='w-[275px] h-[72px]' src="https://i.ibb.co/sQ1KCKG/Vector-4.png" alt="" />
+                                <h3 className='text-3xl font-semibold'>Min 60% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+
+                            </div>
+                            <div className='w-[442px] h-[487px]'>
+                                <img src="https://i.ibb.co/bNcgKrX/Rectangle-13.png" alt="" />
+                            </div>
+                            <div className='flex flex-col justify-center items-center gap-6 ml-12 mt-12 first-slide-div w-[368px] h-[341px]'>
+                                <h3 className='text-3xl font-semibold'>FOREVER 21</h3>
+                                <h3 className='text-3xl font-semibold'>Min 50% off</h3>
+                                <button className='pl-6 pr-6 border rounded-md border-black'>Explore</button>
+                            </div>
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
