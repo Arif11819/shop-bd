@@ -10,15 +10,15 @@ const Navbar = () => {
                 <img src="https://i.ibb.co/wsgBZsT/Vector-1.png" alt="" />
             </div>
             <div className='pl-16'>
-                <Link className='pr-8' to='/men'>Men</Link>
-                <Link className='pr-8' to='/women'>Women</Link>
-                <Link className='pr-8' to='/kids'>Kids</Link>
-                <Link className='pr-8' to='/shop'>Shop</Link>
-                <Link className='pr-8' to='/contactus'>Contact us</Link>
+                <Link className='pr-10' to='/men'>Men</Link>
+                <Link className='pr-10' to='/women'>Women</Link>
+                <Link className='pr-10' to='/kids'>Kids</Link>
+                <Link className='pr-10' to='/shop'>Shop</Link>
+                <Link className='pr-10' to='/contactus'>Contact us</Link>
             </div>
             <div className='flex flex-row-reverse items-center pl-24'>
                 <p className='absolute pr-6 text-lg'><AiOutlineSearch></AiOutlineSearch></p>
-                <input className='bg-slate-100 border rounded w-[320px] h-[30px] pl-5' type="text" placeholder='Search here' />
+                <input className='bg-slate-100 border rounded w-[330px] h-[30px] pl-5' type="text" placeholder='Search here' />
             </div>
             <div className='flex items-center gap-5'>
                 <img className='w-[26px] h-[23px] mr-3' src="https://i.ibb.co/hDGy7s8/Vector-2.png" alt="" />
